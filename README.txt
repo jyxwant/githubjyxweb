@@ -1,0 +1,3 @@
+1.3D.html is a web for my logical circuit, its advantage is a beautiful 3D ball model whose color will change because of the position of your mouse.
+2.index.html is the homepage, you can hit some links to visit other pages. Also you can hit the help link to get some useful information to use input some information on the from that position in the center.
+3.about.html is a web designed to introduce whdx. 

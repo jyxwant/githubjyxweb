@@ -1,0 +1,191 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/> <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> <meta name="renderer" content="webkit">
+<script src="jquery.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+$("#p1").hide();
+$("#p2").hide();
+$("#p3").hide();
+$("#input4").click(function(){
+   var input1=document.getElementsByName('input1')[0].value;
+   var input2=document.getElementsByName('input2')[0].value;
+   var input3=document.getElementsByName('input3')[0].value; 
+var input5=document.getElementsByName('input5')[0].value;
+   console.log(input1);
+   console.log(input2);
+   console.log(input3);
+   console.log(input5);
+   if(input1=="jyx"&&input2=="123456"&&input3=="123456")
+{
+location.href="about.html";
+}
+else if(input5=="show")
+{
+location.href="fks_chart/index.html";
+}
+
+});
+$("#a1").click(function(){
+  alert("you can input jyx in Name ,123456 in Phone and Email to see the author's page Or input show to see courses");
+  });
+$("#pict1").click(function(){
+  $("#p1").show();
+  });
+  $("#pict1").mousemove(function(){
+  $("#p1").show();
+  });
+  $("#pict1").mouseleave(function(){
+  $("#p1").hide();
+  });
+  $("#pict2").mousemove(function(){
+  $("#p2").show();
+  });
+  $("#pict2").mouseleave(function(){
+  $("#p2").hide();
+  });
+  $("#pict3").mousemove(function(){
+  $("#p3").show();
+  });
+  $("#pict3").mouseleave(function(){
+  $("#p3").hide();
+  });
+});
+</script>
+<title>jyx-webclass-examination</title>
+<style>
+*{
+  padding:0px;
+  margin:0px;
+}
+div{
+position:relative;
+}
+#head{
+
+
+height:75px;
+background-color:#eeeeee;
+position:relative;
+}
+#head div{
+float:left;
+}
+#head-text1{
+width:350px;
+margin:0px;
+padding-left:40px;
+padding-right:0px;
+assign:center;
+padding-top:20px;
+color:#888888;
+font-size:36px;
+font-family:impact,Cambria Math;
+}
+#head-text2{
+position:relative;
+
+font-size:14px;
+font-family:Cambria Math;
+height:20px;
+margin:0px;
+margin-top:45px;
+margin-left:600px;
+padding:0px;
+}
+#head-text2 li{
+display:inline;
+margin:12px;
+color:#777777;
+}
+#part1{
+height:660px;
+
+background-image:url(tim_bg_1.jpg);
+background-size:100% 100%;
+
+}
+#part1:before{
+
+}
+#part1 input{
+background-color:transparent;
+
+width:500px;
+height:35px;
+border-width:1px;
+color:#444444;
+
+display:block;
+margin-bottom:20px;
+
+}
+
+</style>
+</head>
+
+<body style="width:100%;height:100%;">
+<div id="head">
+<div id="head-text1">
+Electronic Information
+</div>
+<div id="head-text2">
+<ul>
+   <a href="about.html"><li>ABOUT</li></a>
+   <a href="fks_chart/index.html"><li>COURSE</li></a>
+   <a href="https://www.baidu.com"><li>BAIDU</li></a>
+   <a href="https://www.google.com.hk/"><li>GEOGLE</li></a>
+   <a id="a1"><li><u style="cursor:pointer;">HELP</u></li></a>
+   <a href="3D.html"><li>CONTACT</li></a>
+</ul>
+</div>
+</div>
+<div id="part1">
+<div >
+<img src="xiannong.jpg" style="position: absolute; z-index:2;" id="pict3"></img>
+</div>
+<div >
+<img src="xitong.jpg" style="position: absolute; z-index:1; top:300px;left:100px;" id="pict2"></img>
+</div>
+<div >
+<img src="xitong2.jpg" style=" position: absolute; z-index:2; top:400px;left:60px; " id="pict1"></img>
+</div>
+<div style="text-align:center;">
+<br />
+<br />
+<br />
+<br />
+
+<center><input type="text" name="input1" placeholder="Your Name" style="align:center;">
+<input type="text" name="input2" placeholder="Your Phone" >
+<input type="text" name="input3" placeholder="Your Email" ></center>
+<textarea style="background-color:transparent; resize:none;width:500px;
+height:100px;
+border-width:1px;
+font-family:Aria;
+font-size:13.333px;
+color:#444444;margin-bottom:20px;
+align:center;" name="input5">Write Your Comment Here</textarea>
+<input type="submit" value="SEND MESSAGE" style="width:100px; margin-left:710px;" id="input4" ></center>
+</div>
+<div style="left:1100px;top:70px;position:absolute;" id="p1">
+<p  style="font-family:Cambria Math;color:#888888;font-size:20px;">Karl Ludwig von Bertalanffy (19 September 1901 – 12 June 1972) was an Austrian biologist known as one of the founders of general systems theory (GST). This is an interdisciplinary practice that describes systems with interacting components, applicable to biology, cybernetics and other fields. Bertalanffy proposed that the classical laws of thermodynamics applied to closed systems, but not necessarily to "open systems" such as living things. His mathematical model of an organism's growth over time, published in 1934, is still in use today.
+</p>
+</div>
+<div style="left:1100px;top:70px;position:absolute;" id="p2">
+<p style="font-family:Cambria Math;color:#888888;font-size:20px;">Norbert Wiener (November 26, 1894 – March 18, 1964) was an American mathematician and philosopher. He was a professor of mathematics at the Massachusetts Institute of Technology (MIT). A child prodigy, Wiener later became an early researcher in stochastic and mathematical noise processes, contributing work relevant to electronic engineering, electronic communication, and control systems.
+
+Wiener is considered the originator of cybernetics, a formalization of the notion of feedback, with implications for engineering, systems control, computer science, biology, neuroscience, philosophy, and the organization of society.
+</p>
+</div>
+<div style="left:1100px;top:70px;position:absolute;" id="p3">
+<p  style="font-size:20px;font-family:Cambria Math;color:#888888;">Claude Elwood Shannon (April 30, 1916 – February 24, 2001) was an American mathematician, electrical engineer, and cryptographer known as "the father of information theory".[1][2]
+
+Shannon is noted for having founded information theory with a landmark paper, A Mathematical Theory of Communication, that he published in 1948. He is, perhaps, equally well known for founding digital circuit design theory in 1937, when—as a 21-year-old master's degree student at the Massachusetts Institute of Technology (MIT)—he wrote his thesis demonstrating that electrical applications of Boolean algebra could construct any logical, numerical relationship.[3] Shannon contributed to the field of cryptanalysis for national defense during World War II, including his fundamental work on codebreaking and secure telecommunications.
+</p>
+</div>
+</div>
+
+</body>
+</html>
